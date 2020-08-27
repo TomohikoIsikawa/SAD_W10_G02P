@@ -25,6 +25,7 @@ body {
 
 .title-image {
     width: inherit;
+    vertical-align: bottom;
 }
 
 .main__item-content {
