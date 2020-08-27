@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color: #FCF5E8;
+}
+
+.header {
+    border-bottom: black solid 1px;
+}
+
+.header__title {
+    padding: 0 1em;
+}
+
+.main__item > div {
+    border-bottom: black solid 1px;
+}
+
+.main__item-image {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-image {
+    width: inherit;
+}
+
+.main__item-content {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__item-material {
+    min-width: 300px;
+}
+.material-content {
+    border-collapse: collapse;
+}
+.material-content tr {
+    border-bottom: gray solid 1px;
+}
+
+.material-content td {
+    padding: .5em 1em;
+}
+
+.material-head th {
+    min-width: 100px;
+}
+
+.main__item-howto {
+    min-width: 300px;
+}
+
+.howto-list {
+    padding: 0 1.2em;
+}
+.howto-list > li {
+    padding: .5em 0;
+}
+
+.footer__container {
+    padding: 0 2em;
+}
+
+.footer__container > a {
+    display: block;
+}
